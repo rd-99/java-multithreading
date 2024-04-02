@@ -1,11 +1,10 @@
 package com.mewebstudio.javaspringbootboilerplate;
 
 import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReadWriteLock;
 import java.util.*;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-public class Main {
+public class ReadWriteLocks {
 
     public static class ReadAndWriteFromVar{
         public static int globalCount = 0;
